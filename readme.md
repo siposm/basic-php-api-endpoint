@@ -2,7 +2,7 @@
 
 ## API Usage
 ### Endpoint basic
-- endpoint.php should be hosted under any webserver (eg. Apache (Xampp is fine too if you are working on localhost))
+- endpoint.php should be hosted under any webserver (eg. Apache (Xampp or Wamp is fine too if you are working on localhost))
 - endpoint.php *currently, at the time of writing this* is available at https://siposm.hu/api/endpoint.php
 
 ### Endpoint filtered
