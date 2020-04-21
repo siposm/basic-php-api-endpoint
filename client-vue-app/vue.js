@@ -2,10 +2,7 @@
 new Vue({
     
     created: function () {
-        console.log("hello")
-        axios
-            .get('https://siposm.hu/api/endpoint.php')
-            .then(response => {
+        axios.get('https://siposm.hu/api/endpoint.php').then(response => {
                 console.log(response.data)
                 response.data.forEach(element => {
                     let newNode = document.createElement("p")
