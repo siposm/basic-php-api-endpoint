@@ -1,5 +1,8 @@
 <?php
 
+    // .htaccess file (if needed) should contain this line:
+    // Header set Access-Control-Allow-Origin "*"
+
     header('Content-Type: application/json');
 
     $database = array (
