@@ -1,9 +1,9 @@
-# Basic example for PHP API endpoint
-
+# Basic example for PHP API endpoint with various clients
 ## Usage
 ### Endpoint basic
 - endpoint.php should be hosted under any webserver (eg. Apache (Xampp is fine too if you are working on localhost))
 - endpoint.php *currently, at the time of writing this* is available at https://siposm.hu/api/endpoint.php
+
 ### Endpoint filtered
 - with GET parameter you can filter for the *age*
 - example: http://localhost/basic-php-api-endpoint/endpoint.php?age=22 >> this should return only Claudia and Kevin objects
