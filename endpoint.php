@@ -52,6 +52,72 @@
             "age" => 27,
             "job" => "Sales representative",
             "salary" => 3000
+        ),
+        array (
+            "name" => "Sherlock",
+            "age" => 40,
+            "job" => "IT researcher",
+            "salary" => 50000
+        ),
+        array (
+            "name" => "Romana",
+            "age" => 40,
+            "job" => "Administrator",
+            "salary" => 3660
+        ),
+        array (
+            "name" => "Michele",
+            "age" => 22,
+            "job" => "IT architect",
+            "salary" => 5000
+        ),
+        array (
+            "name" => "Joseph",
+            "age" => 27,
+            "job" => "Sales representative",
+            "salary" => 3000
+        ),
+        array (
+            "name" => "Grant",
+            "age" => 40,
+            "job" => "IT researcher",
+            "salary" => 50000
+        ),
+        array (
+            "name" => "Thompson",
+            "age" => 40,
+            "job" => "Administrator",
+            "salary" => 3660
+        ),
+        array (
+            "name" => "Leon",
+            "age" => 22,
+            "job" => "IT architect",
+            "salary" => 5000
+        ),
+        array (
+            "name" => "Jill",
+            "age" => 27,
+            "job" => "Sales representative",
+            "salary" => 3000
+        ),
+        array (
+            "name" => "Wesker",
+            "age" => 41,
+            "job" => "IT researcher",
+            "salary" => 56000
+        ),
+        array (
+            "name" => "Dr. Birkin",
+            "age" => 40,
+            "job" => "Administrator",
+            "salary" => 3660
+        ),
+        array (
+            "name" => "William",
+            "age" => 22,
+            "job" => "IT architect",
+            "salary" => 23000
         )
     );
 

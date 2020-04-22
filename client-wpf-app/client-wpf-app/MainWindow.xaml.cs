@@ -34,22 +34,49 @@ namespace client_wpf_app
     {
         public List<Person> FetchData()
         {
-            string url = "https://siposm.hu/api/endpoint.php";
+            string url = "https://siposm.hu/demo/api/endpoint.php";
             WebClient wc = new WebClient();
             string x = wc.DownloadString(url);
             return JsonConvert.DeserializeObject<List<Person>>(x);
         }
-
+        public List<Person> FetchData(int age)
+        {
+            string url = "https://siposm.hu/demo/api/endpoint.php?age=" + age;
+            WebClient wc = new WebClient();
+            string x = wc.DownloadString(url);
+            return JsonConvert.DeserializeObject<List<Person>>(x);
+        }
     }
 
     public partial class MainWindow : Window
     {
+        private DataFetcherService dfs;
+
         public MainWindow()
         {
             InitializeComponent();
 
-            DataFetcherService dfs = new DataFetcherService();
+            dfs = new DataFetcherService();
+
+            // by default, all records are fetched
+            FetchAllClick(this, null);
+        }
+
+        private void FetchByAgeClick(object sender, RoutedEventArgs e)
+        {
+            Purge();
+            dfs.FetchData(22).ForEach(x => gui_listbox.Items.Add(x));
+        }
+
+        private void FetchAllClick(object sender, RoutedEventArgs e)
+        {
+            Purge();
             dfs.FetchData().ForEach(x => gui_listbox.Items.Add(x));
+        }
+
+        private void Purge()
+        {
+            gui_listbox.Items.Clear();
         }
     }
 }

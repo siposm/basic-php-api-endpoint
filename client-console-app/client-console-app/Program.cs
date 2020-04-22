@@ -25,7 +25,7 @@ namespace client_console_app
     {
         public List<Person> FetchData()
         {
-            string url = "https://siposm.hu/api/endpoint.php";
+            string url = "https://siposm.hu/demo/api/endpoint.php";
             WebClient wc = new WebClient();
             string x = wc.DownloadString(url);
             return JsonConvert.DeserializeObject<List<Person>>(x);

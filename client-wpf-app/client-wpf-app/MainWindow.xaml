@@ -5,11 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:client_wpf_app"
         mc:Ignorable="d"
-        FontSize="20"
-        Title="API endpoint example" Height="450" Width="800">
+        FontSize="15"
+        Title="API endpoint example" Height="450" Width="400">
     <Grid>
-        <ListBox x:Name="gui_listbox">
-            
-        </ListBox>
+        <StackPanel Margin="20">
+            <Button Content="Fetch all" Click="FetchAllClick" Margin="10"/>
+            <Button Content="Fetch by age (=22)" Click="FetchByAgeClick" Margin="10"/>
+            <Label Content="FETCHED USERS:"/>
+            <ListBox x:Name="gui_listbox"/>
+        </StackPanel>
     </Grid>
 </Window>
