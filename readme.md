@@ -9,6 +9,10 @@
 - with GET parameter you can filter for the *age*
 - example: http://localhost/basic-php-api-endpoint/endpoint.php?age=22 >> this should return only Claudia and Kevin objects
 
+### Endpoint live
+- basic: https://siposm.hu/demo/api/endpoint.php
+- filtered: https://siposm.hu/demo/api/endpoint.php?age=22
+
 ## Client Usage
 ### Client #1: C# Console Application
 - using `WebClient` and `Newtonsoft JsonConvert` simple downloading the json content from the API and then processing it
