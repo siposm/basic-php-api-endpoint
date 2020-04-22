@@ -21,6 +21,9 @@
 ### Client #2: C# WPF Application
 - using the same tools like in the console, but
 - adding all the objects to a listbox
+- two dedicated buttons
+    - fetch all
+    - fetch by age (hardcoded: only fetch 22 year olds)
 
 ### Client #3: VueJS Application
 - simple vue app for prototyping
