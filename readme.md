@@ -3,7 +3,7 @@
 ## API Usage
 ### Endpoint basic
 - endpoint.php should be hosted under any webserver (eg. Apache (Xampp or Wamp is fine too if you are working on localhost))
-- endpoint.php *currently, at the time of writing this* is available at https://siposm.hu/api/endpoint.php
+- endpoint.php *currently, at the time of writing this* is available at https://siposm.hu/demo/api/endpoint.php
 
 ### Endpoint filtered
 - with GET parameter you can filter for the *age*
