@@ -1,5 +1,8 @@
 # Basic example for PHP API endpoint with various clients
 
+## Blog post
+Check my blog post about this topic to better understand: https://siposm.hu/blog/creating-basic-php-api
+
 ## API Usage
 ### Endpoint basic
 - endpoint.php should be hosted under any webserver (eg. Apache (Xampp or Wamp is fine too if you are working on localhost))
