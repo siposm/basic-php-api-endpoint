@@ -1,7 +1,7 @@
 # Basic example for PHP API endpoint with various clients
 
 ## Blog post
-Check my blog post about this topic to better understand: https://siposm.hu/blog/creating-basic-php-api
+Check my blog post about this topic to better understand: https://siposm.github.io/blog/creating-basic-php-api
 
 ## API Usage
 ### Endpoint basic
